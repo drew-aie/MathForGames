@@ -2,7 +2,7 @@
 {
     public struct Vector2
     {
-        float x, y;
+        public float x, y;
 
         public float Magnitude
         {
