@@ -39,6 +39,11 @@
 
         public static bool operator ==(Vector2 left, Vector2 right)
         {
+            bool xEqual = left.x == right.x;
+            bool yEqual = left.y == right.y;
+            bool bothEqual = xEqual && yEqual;
+            return bothEqual;
+
             return (left.x == right.x) && (left.y == right.y);
         }
 
