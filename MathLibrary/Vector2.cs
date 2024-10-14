@@ -8,7 +8,7 @@
         {
             get
             {
-                return (float)Math.Sqrt(Math.Pow(x, 2) + Math.Pow(y, 2));
+                return (float)Math.Abs(Math.Sqrt(Math.Pow(x, 2) + Math.Pow(y, 2)));
             }
         }
 
